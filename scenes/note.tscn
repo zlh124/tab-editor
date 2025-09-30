@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4kybk01vltv7"]
+
+[ext_resource type="Script" uid="uid://dwts7w77j8wng" path="res://scripts/note.gd" id="1_1bnk6"]
+
+[node name="Note" type="VBoxContainer"]
+theme_override_constants/separation = 0
+alignment = 1
+script = ExtResource("1_1bnk6")

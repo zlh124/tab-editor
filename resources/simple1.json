@@ -1,0 +1,1107 @@
+{
+    "title": "那些花儿",
+    "author": "朴树",
+    "keySignature": "#C",
+    "timeSignature": "4/4",
+    "bpm": 58,
+    "OpenStringPitch": "E A G D B E",
+    "bars": [
+        {
+            "no": 1,
+            "harmonies": [
+                {
+                    "id": 1,
+                    "name": "C",
+                    "position": "1 1"
+                },
+                {
+                    "id": 2,
+                    "name": "Em7/B",
+                    "position": "3 1"
+                }
+            ],
+            "beats": [
+                {
+                    "no": 1,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 2,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 3,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 4,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "no": 2,
+            "harmonies": [
+                {
+                    "id": 3,
+                    "name": "Am",
+                    "position": "1 1"
+                },
+                {
+                    "id": 4,
+                    "name": "F",
+                    "position": "3 1"
+                }
+            ],
+            "beats": [
+                {
+                    "no": 1,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 2,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 3,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 6,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 4,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 6,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "no": 3,
+            "harmonies": [
+                {
+                    "id": 1,
+                    "name": "c",
+                    "position": "1 1"
+                },
+                {
+                    "id": 2,
+                    "name": "em7/b",
+                    "position": "3 1"
+                }
+            ],
+            "beats": [
+                {
+                    "no": 1,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 2,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 3,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 4,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "no": 4,
+            "harmonies": [
+                {
+                    "id": 5,
+                    "name": "G",
+                    "position": "1 1"
+                },
+                {
+                    "id": 4,
+                    "name": "F",
+                    "position": "2 1"
+                },
+                {
+                    "id": 1,
+                    "name": "C",
+                    "position": "3 1"
+                }
+            ],
+            "beats": [
+                {
+                    "no": 1,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 6,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 2,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 2,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 6,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 3,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 2,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 4,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 8,
+                            "frets": [
+                                {
+                                    "string": 2,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "no": 5,
+            "harmonies": [
+                {
+                    "id": 1,
+                    "name": "C",
+                    "position": "1 1"
+                },
+                {
+                    "id": 2,
+                    "name": "Em7/B",
+                    "position": "3 1"
+                }
+            ],
+            "beats": [
+                {
+                    "no": 1,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 2,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 6,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 3,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 1,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": "3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "no": 4,
+                    "notes": [
+                        {
+                            "no": 1,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 2,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 3,
+                                    "fret": "X"
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 3,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 4,
+                                    "fret": "X"
+                                }
+                            ]
+                        },
+                        {
+                            "no": 4,
+                            "fret": -1,
+                            "value": 16,
+                            "frets": [
+                                {
+                                    "string": 5,
+                                    "fret": "X"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwtuacjy5f3i3"]
+
+[ext_resource type="Script" uid="uid://dtv7rfsmdipp3" path="res://scripts/fret_mark.gd" id="1_xflny"]
+[ext_resource type="PackedScene" uid="uid://cpkww11x8io8o" path="res://scenes/default_line.tscn" id="2_ottr0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xflny"]
+font_size = 46
+font_color = Color(0, 0, 0, 1)
+
+[node name="FretMark" type="Label"]
+custom_minimum_size = Vector2(64, 64)
+offset_right = 64.0
+offset_bottom = 64.0
+size_flags_horizontal = 4
+label_settings = SubResource("LabelSettings_xflny")
+horizontal_alignment = 1
+vertical_alignment = 1
+max_lines_visible = 1
+script = ExtResource("1_xflny")
+
+[node name="LineBetweenFrets" parent="." instance=ExtResource("2_ottr0")]
+position = Vector2(32, 0)
+points = PackedVector2Array(0, 0, 0, 64)
