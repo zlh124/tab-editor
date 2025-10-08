@@ -30,18 +30,18 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
-                            "value": 16,
+                            "value": 8,
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -52,18 +52,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
-                                }
-                            ]
-                        },
-                        {
-                            "no": 4,
-                            "fret": -1,
-                            "value": 16,
-                            "frets": [
-                                {
-                                    "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -79,7 +68,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -90,7 +79,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -101,7 +90,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -112,7 +101,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -128,7 +117,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -139,7 +128,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -150,7 +139,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -161,7 +150,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -177,7 +166,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -188,7 +177,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -199,7 +188,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -210,7 +199,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -243,7 +232,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -254,7 +243,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -265,7 +254,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -276,7 +265,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -292,7 +281,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -303,7 +292,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -314,7 +303,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -325,7 +314,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -341,7 +330,7 @@
                             "frets": [
                                 {
                                     "string": 6,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -352,7 +341,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -363,7 +352,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -374,7 +363,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -390,7 +379,7 @@
                             "frets": [
                                 {
                                     "string": 6,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -401,7 +390,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -412,7 +401,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -423,7 +412,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -456,7 +445,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -467,7 +456,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -478,7 +467,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -489,7 +478,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -505,7 +494,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -516,7 +505,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -527,7 +516,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -538,7 +527,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -554,7 +543,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -565,7 +554,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -576,7 +565,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -587,7 +576,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -603,7 +592,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -614,7 +603,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -625,7 +614,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -636,7 +625,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -674,7 +663,7 @@
                             "frets": [
                                 {
                                     "string": 6,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -685,7 +674,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -696,7 +685,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -707,7 +696,7 @@
                             "frets": [
                                 {
                                     "string": 2,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -723,7 +712,7 @@
                             "frets": [
                                 {
                                     "string": 6,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -734,7 +723,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -745,7 +734,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -756,7 +745,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -772,7 +761,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -783,7 +772,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -794,7 +783,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -805,7 +794,7 @@
                             "frets": [
                                 {
                                     "string": 2,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -821,7 +810,7 @@
                             "frets": [
                                 {
                                     "string": 2,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -832,7 +821,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -843,7 +832,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -854,7 +843,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -887,11 +876,11 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -902,7 +891,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -924,11 +913,11 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 2,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -944,7 +933,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -955,7 +944,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 2,
@@ -970,7 +959,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -981,7 +970,7 @@
                             "frets": [
                                 {
                                     "string": 6,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }
@@ -997,11 +986,11 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 1,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -1012,7 +1001,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -1023,7 +1012,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 2,
@@ -1038,7 +1027,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 2,
@@ -1058,7 +1047,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -1069,7 +1058,7 @@
                             "frets": [
                                 {
                                     "string": 3,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 },
                                 {
                                     "string": 2,
@@ -1084,7 +1073,7 @@
                             "frets": [
                                 {
                                     "string": 4,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         },
@@ -1095,7 +1084,7 @@
                             "frets": [
                                 {
                                     "string": 5,
-                                    "fret": "X"
+                                    "fret": "✕"
                                 }
                             ]
                         }

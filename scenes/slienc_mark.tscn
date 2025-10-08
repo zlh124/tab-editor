@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4cae5aekfm2m"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kdx3u"]
+line_spacing = 0.0
+font_size = 46
+font_color = Color(0, 0, 0, 1)
+
+[node name="SliencMark" type="Label"]
+custom_minimum_size = Vector2(64, 64)
+offset_right = 40.0
+offset_bottom = 23.0
+scale = Vector2(0.25, 0.25)
+text = "◯"
+label_settings = SubResource("LabelSettings_kdx3u")
+horizontal_alignment = 1
+vertical_alignment = 1
