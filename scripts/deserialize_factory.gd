@@ -4,6 +4,7 @@ const fret_mark_res := preload("res://scenes/fret_mark.tscn")
 const note_res := preload("res://scenes/note.tscn")
 const beat_res := preload("res://scenes/beat.tscn")
 const bar_res := preload("res://scenes/bar.tscn")
+const chord_res := preload("res://scenes/chord.tscn")
 
 static func deserialize_note(data: Dictionary) -> Note:
     var note: Note = note_res.instantiate()
@@ -29,6 +30,7 @@ static func deserialize_note(data: Dictionary) -> Note:
 static func deserialize_beat(data: Dictionary) -> Beat:
     var beat: Beat = beat_res.instantiate()
     beat.beat_no = data["no"]
+    beat.name = "Beat#%d" % beat.beat_no
     var note_length = len(data['notes'])
     var has_less_time_value_note_right = func(time_value: int, curr_index: int, notes: Array):
         for i in range(curr_index + 1, len(notes)):
@@ -68,10 +70,42 @@ static func deserialize_bar(data: Dictionary) -> Bar:
     var bar: Bar = bar_res.instantiate()
     bar.bar_no = data['no']
     bar.name = "Bar%d" % bar.bar_no
-    # TODO: 和弦处理
-    var beat_container: HBoxContainer = bar.get_node("HBoxContainer/BeatContainer")
+    var beat_container: HBoxContainer = bar.get_node("BeatContainer")
+    # 添加小节
     for beat_data in data["beats"]:
         var beat: Beat = deserialize_beat(beat_data)
         beat_container.add_child(beat)
 
     return bar
+
+static func deserialize_chord(data: Dictionary) -> Chord:
+    var chord: Chord = chord_res.instantiate()
+    chord.name = data['name'] + "At%s" % data['position']
+
+    var chords_file = FileAccess.open("res://resources/chords.json", FileAccess.READ)
+    var chords_data: Array = JSON.parse_string(chords_file.get_as_text())
+    chords_file.close()
+
+    var target_chord_data = null
+
+    for chord_data in chords_data:
+        if chord_data['id'] == data['id']:
+            target_chord_data = chord_data
+            break
+    
+    if target_chord_data == null:
+        # 和弦定义被删除了
+        return null
+
+    # 绘制和弦
+    chord.get_node("Name").text = target_chord_data['name']
+    var start_fret = target_chord_data['startFret']
+    chord.get_node("StartFret").text = "" if start_fret == 0 else String(start_fret)
+    for i in range(len(target_chord_data['outOfChordToneMark'])):
+        if target_chord_data['outOfChordToneMark'][i] == '1':
+            chord.get_node("OutOfChordTonesMarks/OutOfChordTonesMark#%d" % i).text = '✕'
+    for finger_marks_pos in target_chord_data['fingerMarks']:
+        var finger_mark: TextureRect = chord.get_node("FingerMarks/FingerMark#%s" % finger_marks_pos)
+        finger_mark.self_modulate = Color.BLACK
+
+    return chord

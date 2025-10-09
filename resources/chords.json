@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "C",
+        "outOfChordToneMark": "100000",
+        "editable": false,
+        "startFret": 0,
+        "fingerMarks": [
+            "0#4",
+            "1#2",
+            "2#1"
+        ]
+    }
+]

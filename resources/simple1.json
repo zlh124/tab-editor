@@ -8,16 +8,16 @@
     "bars": [
         {
             "no": 1,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 1,
                     "name": "C",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 2,
                     "name": "Em7/B",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -209,16 +209,16 @@
         },
         {
             "no": 2,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 3,
                     "name": "Am",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 4,
                     "name": "F",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -422,16 +422,16 @@
         },
         {
             "no": 3,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 1,
                     "name": "c",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 2,
                     "name": "em7/b",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -635,21 +635,21 @@
         },
         {
             "no": 4,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 5,
                     "name": "G",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 4,
                     "name": "F",
-                    "position": "2 1"
+                    "position": "2#1"
                 },
                 {
                     "id": 1,
                     "name": "C",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -853,16 +853,16 @@
         },
         {
             "no": 5,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 1,
                     "name": "C",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 2,
                     "name": "Em7/B",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
