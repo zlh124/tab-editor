@@ -14,3 +14,8 @@ config/name="TabEditor"
 run/main_scene="uid://b4kybk01vltv7"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720

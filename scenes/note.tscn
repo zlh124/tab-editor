@@ -8,7 +8,7 @@
 clip_contents = true
 custom_minimum_size = Vector2(64, 0)
 offset_right = 64.0
-offset_bottom = 584.0
+offset_bottom = 484.0
 theme_override_constants/separation = 0
 script = ExtResource("1_1bnk6")
 
@@ -31,41 +31,47 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
-custom_minimum_size = Vector2(64, 200)
+custom_minimum_size = Vector2(64, 100)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="NoteStem" parent="AspectRatioContainer" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(32, 0)
-points = PackedVector2Array(0, 0, 0, 192)
+points = PackedVector2Array(0, 0, 0, 100)
 
 [node name="8NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
+position = Vector2(0, -95)
 points = PackedVector2Array(-1000, 192, 0, 192)
 width = 6.0
 
 [node name="8NoteMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
+position = Vector2(0, -95)
 points = PackedVector2Array(0, 192, 1000, 192)
 width = 6.0
 
 [node name="16NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
+position = Vector2(0, -95)
 points = PackedVector2Array(-1000, 160, 0, 160)
 width = 6.0
 
 [node name="16NoteMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
+position = Vector2(0, -95)
 points = PackedVector2Array(0, 160, 1000, 160)
 width = 6.0
 
 [node name="32NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
+position = Vector2(0, -95)
 points = PackedVector2Array(-1000, 128, 0, 128)
 width = 6.0
 
 [node name="32NoteMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
+position = Vector2(0, -95)
 points = PackedVector2Array(0, 128, 1000, 128)
 width = 6.0

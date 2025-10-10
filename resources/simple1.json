@@ -1,10 +1,14 @@
 {
     "title": "那些花儿",
-    "author": "朴树",
-    "keySignature": "#C",
-    "timeSignature": "4/4",
-    "bpm": 58,
-    "OpenStringPitch": "E A G D B E",
+    "authors": [
+        "作词：朴树",
+        "作曲：朴树"
+    ],
+    "signatures": [
+        "1 = #C 4/4",
+        "bpm = 58",
+        "capo = 1"
+    ],
     "bars": [
         {
             "no": 1,
@@ -231,7 +235,27 @@
                             "value": 16,
                             "frets": [
                                 {
+                                    "string": 6,
+                                    "fret": "✕"
+                                },
+                                {
                                     "string": 5,
+                                    "fret": "✕"
+                                },
+                                {
+                                    "string": 4,
+                                    "fret": "✕"
+                                },
+                                {
+                                    "string": 3,
+                                    "fret": "✕"
+                                },
+                                {
+                                    "string": 2,
+                                    "fret": "✕"
+                                },
+                                {
+                                    "string": 1,
                                     "fret": "✕"
                                 }
                             ]

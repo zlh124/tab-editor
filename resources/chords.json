@@ -10,5 +10,41 @@
             "1#2",
             "2#1"
         ]
+    },
+    {
+        "id": 2,
+        "name": "Em7/B",
+        "outOfChordToneMark": "000000",
+        "editable": false,
+        "startFret": 0,
+        "fingerMarks": [
+            "1#1"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Am",
+        "outOfChordToneMark": "100000",
+        "editable": false,
+        "startFret": 0,
+        "fingerMarks": [
+            "0#4",
+            "1#1",
+            "1#2"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "F",
+        "outOfChordToneMark": "000000",
+        "editable": false,
+        "startFret": 0,
+        "fingerMarks": [
+            "0#0",
+            "0#5",
+            "1#3",
+            "2#1",
+            "2#2"
+        ]
     }
 ]

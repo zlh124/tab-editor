@@ -5,12 +5,12 @@ const note_res := preload("res://scenes/note.tscn")
 const beat_res := preload("res://scenes/beat.tscn")
 const bar_res := preload("res://scenes/bar.tscn")
 const chord_res := preload("res://scenes/chord.tscn")
+const tab_res := preload("res://scenes/tab.tscn")
 
 static func deserialize_note(data: Dictionary) -> Note:
     var note: Note = note_res.instantiate()
     note.note_no = data['no']
     note.value = data['value']
-    note.name = "Note#%d" % note.note_no
 
     var min_string := 6
     for fret in data['frets']:
@@ -28,9 +28,8 @@ static func deserialize_note(data: Dictionary) -> Note:
     return note
 
 static func deserialize_beat(data: Dictionary) -> Beat:
-    var beat: Beat = beat_res.instantiate()
+    var beat: Beat = Beat.new()
     beat.beat_no = data["no"]
-    beat.name = "Beat#%d" % beat.beat_no
     var note_length = len(data['notes'])
     var has_less_time_value_note_right = func(time_value: int, curr_index: int, notes: Array):
         for i in range(curr_index + 1, len(notes)):
@@ -62,19 +61,51 @@ static func deserialize_beat(data: Dictionary) -> Beat:
                 if has_less_time_value_note_left.call(note.value, i, data['notes']):
                     note.set_note_marks_visibility(limit, "Left", true)
 
-        beat.add_child(note)
+        note.name = "Note#%d#%d" % [beat.beat_no, note.note_no]
+        beat.notes.append(note)
 
     return beat
 
 static func deserialize_bar(data: Dictionary) -> Bar:
     var bar: Bar = bar_res.instantiate()
     bar.bar_no = data['no']
-    bar.name = "Bar%d" % bar.bar_no
-    var beat_container: HBoxContainer = bar.get_node("BeatContainer")
     # 添加小节
     for beat_data in data["beats"]:
         var beat: Beat = deserialize_beat(beat_data)
-        beat_container.add_child(beat)
+        bar.beats.append(beat)
+        bar.note_count += len(beat.notes)
+
+    # 设置bar的列数
+    bar.columns = bar.note_count
+
+    # 先把框线移走
+    var frame: Node2D = bar.get_node("Frame")
+    bar.remove_child(frame)
+
+    # 添加和弦
+    var chords: Dictionary = {}
+    for chord_data in data["chords"]:
+        var chord: Chord = deserialize_chord(chord_data)
+        chords[chord_data['position']] = chord
+    
+    for i in range(len(bar.beats)):
+        var beat: Beat = bar.beats[i]
+        for j in range(len(beat.notes)):
+            var position = "%d#%d" % [i + 1, j + 1]
+            if chords.has(position):
+                bar.add_child(chords[position])
+            else:
+                bar.add_child(Control.new())
+    
+    # 添加音符
+    for i in range(len(bar.beats)):
+        var beat: Beat = bar.beats[i]
+        for j in range(len(beat.notes)):
+            var note: Note = beat.notes[j]
+            bar.add_child(note)
+
+    # 重新添加框线
+    bar.add_child(frame)
 
     return bar
 
@@ -109,3 +140,16 @@ static func deserialize_chord(data: Dictionary) -> Chord:
         finger_mark.self_modulate = Color.BLACK
 
     return chord
+
+static func deserialize_tab(data: Dictionary) -> Tab:
+    var tab: Tab = tab_res.instantiate()
+    
+    tab.set_title(data['title'])
+    tab.set_signatures(data['signatures'])
+    tab.set_authors(data['authors'])
+
+    for bars_data in data['bars'].slice(0, 3):
+        var bar: Bar = deserialize_bar(bars_data)
+        print_debug(bar)
+        tab.get_node("Lines/Line#1").add_child(bar)
+    return tab
