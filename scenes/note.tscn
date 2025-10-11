@@ -6,9 +6,9 @@
 
 [node name="Note" type="VBoxContainer"]
 clip_contents = true
-custom_minimum_size = Vector2(64, 0)
-offset_right = 64.0
-offset_bottom = 484.0
+custom_minimum_size = Vector2(32, 0)
+offset_right = 32.0
+offset_bottom = 292.0
 theme_override_constants/separation = 0
 script = ExtResource("1_1bnk6")
 
@@ -30,14 +30,14 @@ layout_mode = 2
 [node name="FretMarkString6" parent="." instance=ExtResource("2_1bnk6")]
 layout_mode = 2
 
-[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
-custom_minimum_size = Vector2(64, 100)
+[node name="AspectRatioContainer" type="Control" parent="."]
+custom_minimum_size = Vector2(32, 100)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="NoteStem" parent="AspectRatioContainer" instance=ExtResource("3_43c4j")]
 visible = false
-position = Vector2(32, 0)
+position = Vector2(16, 0)
 points = PackedVector2Array(0, 0, 0, 100)
 
 [node name="8NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]

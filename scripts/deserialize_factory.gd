@@ -76,36 +76,28 @@ static func deserialize_bar(data: Dictionary) -> Bar:
         bar.note_count += len(beat.notes)
 
     # 设置bar的列数
-    bar.columns = bar.note_count
-
-    # 先把框线移走
-    var frame: Node2D = bar.get_node("Frame")
-    bar.remove_child(frame)
+    bar.get_node("BarContainer").columns = bar.note_count
 
     # 添加和弦
     var chords: Dictionary = {}
     for chord_data in data["chords"]:
         var chord: Chord = deserialize_chord(chord_data)
+
         chords[chord_data['position']] = chord
-    
-    for i in range(len(bar.beats)):
-        var beat: Beat = bar.beats[i]
-        for j in range(len(beat.notes)):
-            var position = "%d#%d" % [i + 1, j + 1]
-            if chords.has(position):
-                bar.add_child(chords[position])
-            else:
-                bar.add_child(Control.new())
-    
+
+
     # 添加音符
+    var beat_index = 0
     for i in range(len(bar.beats)):
         var beat: Beat = bar.beats[i]
         for j in range(len(beat.notes)):
             var note: Note = beat.notes[j]
-            bar.add_child(note)
-
-    # 重新添加框线
-    bar.add_child(frame)
+            bar.set_node_at(1, beat_index, note)
+            var pos = "%d#%d" % [i + 1, j + 1]
+            if chords.has(pos):
+                var chord: Chord = chords[pos]
+                bar.set_node_at(0, beat_index, chord)
+            beat_index += 1
 
     return bar
 
@@ -123,9 +115,10 @@ static func deserialize_chord(data: Dictionary) -> Chord:
         if chord_data['id'] == data['id']:
             target_chord_data = chord_data
             break
-    
+
     if target_chord_data == null:
         # 和弦定义被删除了
+        push_error("chord %s undefined" % data['name'])
         return null
 
     # 绘制和弦
@@ -142,14 +135,13 @@ static func deserialize_chord(data: Dictionary) -> Chord:
     return chord
 
 static func deserialize_tab(data: Dictionary) -> Tab:
-    var tab: Tab = tab_res.instantiate()
-    
+    var tab: Tab = tab_res.instantiate() as Tab
+
     tab.set_title(data['title'])
     tab.set_signatures(data['signatures'])
     tab.set_authors(data['authors'])
 
-    for bars_data in data['bars'].slice(0, 3):
+    for bars_data in data['bars']:
         var bar: Bar = deserialize_bar(bars_data)
-        print_debug(bar)
-        tab.get_node("Lines/Line#1").add_child(bar)
+        tab.get_node("MarginContainer/Bars").add_child(bar)
     return tab

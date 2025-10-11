@@ -1,15 +1,15 @@
 [gd_scene load_steps=4 format=3 uid="uid://daylt0vw36rwl"]
 
-[ext_resource type="Script" uid="uid://djd8dyqp2nkk4" path="res://scenes/tab.gd" id="1_ivfkk"]
+[ext_resource type="Script" uid="uid://djd8dyqp2nkk4" path="res://scripts/tab.gd" id="1_ivfkk"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_k3wli"]
 line_spacing = 0.0
-font_size = 240
+font_size = 180
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_ivfkk"]
 line_spacing = 5.0
-font_size = 60
+font_size = 40
 font_color = Color(0, 0, 0, 1)
 
 [node name="Tab" type="VBoxContainer"]
@@ -19,7 +19,7 @@ offset_bottom = 40.0
 script = ExtResource("1_ivfkk")
 
 [node name="Title" type="Label" parent="."]
-custom_minimum_size = Vector2(0, 500)
+custom_minimum_size = Vector2(0, 400)
 layout_mode = 2
 text = "Title"
 label_settings = SubResource("LabelSettings_k3wli")
@@ -58,9 +58,14 @@ vertical_alignment = 1
 custom_minimum_size = Vector2(50, 0)
 layout_mode = 2
 
-[node name="Lines" type="VBoxContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
 size_flags_vertical = 3
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 200
 
-[node name="Line#1" type="HBoxContainer" parent="Lines"]
+[node name="Bars" type="HFlowContainer" parent="MarginContainer"]
 layout_mode = 2
+alignment = 1

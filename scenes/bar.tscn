@@ -3,15 +3,18 @@
 [ext_resource type="Script" uid="uid://dfqcylc7ioinj" path="res://scripts/bar.gd" id="1_5dekh"]
 [ext_resource type="PackedScene" uid="uid://cpkww11x8io8o" path="res://scenes/default_line.tscn" id="2_bwlfd"]
 
-[node name="Bar" type="GridContainer"]
+[node name="Bar" type="CenterContainer"]
+script = ExtResource("1_5dekh")
+
+[node name="BarContainer" type="GridContainer" parent="."]
+layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/h_separation = 0
-script = ExtResource("1_5dekh")
 
 [node name="Frame" type="Node2D" parent="."]
 
 [node name="LeftBorder" parent="Frame" instance=ExtResource("2_bwlfd")]
-points = PackedVector2Array(0, 32, 0, 352)
+points = PackedVector2Array(0, 32, 0, 176)
 
 [node name="Line1" parent="Frame" instance=ExtResource("2_bwlfd")]
 points = PackedVector2Array(0, 32, 0, 32)
@@ -32,4 +35,4 @@ points = PackedVector2Array(0, 288, 0, 288)
 points = PackedVector2Array(0, 352, 0, 352)
 
 [node name="RightBorder" parent="Frame" instance=ExtResource("2_bwlfd")]
-points = PackedVector2Array(0, 32, 0, 352)
+points = PackedVector2Array(0, 32, 0, 176)

@@ -1,3 +1,3 @@
 class_name Constants
 
-static var fret_mark_size: int = 64
+static var fret_mark_size: int = 32
