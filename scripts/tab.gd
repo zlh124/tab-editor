@@ -1,19 +1,19 @@
 class_name Tab
-extends VBoxContainer
+extends Control
 
-var title: String = ""
-var signatures: Array = []
-var authors: Array = []
+var title: String:
+    set(value):
+        title = value
+        get_node(^"Tab/Title").text = value
+
+var signatures: Array:
+    set(value):
+        signatures = value
+        get_node("Tab/Messages/Signatures").text = "\n".join(value)
+
+var authors: Array:
+    set(value):
+        authors = value
+        get_node("Tab/Messages/Authors").text = "\n".join(value)
+
 var lines: Array = []
-
-func set_title(_title: String):
-    self.title = _title
-    get_node("Title").text = _title
-
-func set_signatures(_signatures: Array):
-    self.signatures = _signatures
-    get_node("Messages/Signatures").text = "\n".join(_signatures)
-
-func set_authors(_authors: Array):
-    self.authors = _authors
-    get_node("Messages/Authors").text = "\n".join(_authors)

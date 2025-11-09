@@ -4,13 +4,14 @@
 [ext_resource type="PackedScene" uid="uid://bwtuacjy5f3i3" path="res://scenes/fret_mark.tscn" id="2_1bnk6"]
 [ext_resource type="PackedScene" uid="uid://cpkww11x8io8o" path="res://scenes/default_line.tscn" id="3_43c4j"]
 
-[node name="Note" type="VBoxContainer"]
+[node name="Note" type="VBoxContainer" node_paths=PackedStringArray("fret_marks")]
 clip_contents = true
-custom_minimum_size = Vector2(32, 0)
 offset_right = 32.0
 offset_bottom = 292.0
+size_flags_horizontal = 3
 theme_override_constants/separation = 0
 script = ExtResource("1_1bnk6")
+fret_marks = [NodePath("FretMarkString1"), NodePath("FretMarkString2"), NodePath("FretMarkString3"), NodePath("FretMarkString4"), NodePath("FretMarkString5"), NodePath("FretMarkString6")]
 
 [node name="FretMarkString1" parent="." instance=ExtResource("2_1bnk6")]
 layout_mode = 2
@@ -40,37 +41,37 @@ visible = false
 position = Vector2(16, 0)
 points = PackedVector2Array(0, 0, 0, 100)
 
-[node name="8NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+[node name="8TimeValueMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(0, -95)
 points = PackedVector2Array(-1000, 192, 0, 192)
 width = 6.0
 
-[node name="8NoteMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+[node name="8TimeValueMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(0, -95)
 points = PackedVector2Array(0, 192, 1000, 192)
 width = 6.0
 
-[node name="16NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+[node name="16TimeValueMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(0, -95)
 points = PackedVector2Array(-1000, 160, 0, 160)
 width = 6.0
 
-[node name="16NoteMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+[node name="16TimeValueMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(0, -95)
 points = PackedVector2Array(0, 160, 1000, 160)
 width = 6.0
 
-[node name="32NoteMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+[node name="32TimeValueMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(0, -95)
 points = PackedVector2Array(-1000, 128, 0, 128)
 width = 6.0
 
-[node name="32NoteMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+[node name="32TimeValueMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
 visible = false
 position = Vector2(0, -95)
 points = PackedVector2Array(0, 128, 1000, 128)

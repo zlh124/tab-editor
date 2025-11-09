@@ -1,18 +1,26 @@
-extends Node2D
+extends ScrollContainer
+
 
 func _ready():
-    var json_file := FileAccess.open("resources/simple1.json", FileAccess.READ)
-    # print_debug(json_file.get_as_text())
-    var data: Dictionary = JSON.parse_string(json_file.get_as_text())
+    test_bar()
+    # test_tab()
+
+func init_data(json_path: String = 'resources/simple.json') -> Variant:
+    var json_file := FileAccess.open(json_path, FileAccess.READ)
+    var data = JSON.parse_string(json_file.get_as_text())
+    json_file.close()
+    return data
+
+
+func test_tab():
+    var data = init_data()
     var tab: Tab = DeserializeFactory.deserialize_tab(data)
     # print_debug(data)
     # var bars_data = data['bars'][0]
     # var beat = DeserializeFactory.deserialize_bar(bars_data)
     add_child(tab)
-    tab.position = Vector2(100, 100)
-    tab.scale = Vector2(0.5, 0.5)
-    json_file.close()
-    # var chord_c := DeserializeFactory.deserialize_chord({"id": 1, "name": "C", "position": "1#1"})
 
-    # add_child(chord_c)
-    # chord_c.position = Vector2(200, 200)
+func test_bar():
+    var data = init_data()
+    var bar: Bar = DeserializeFactory.deserialize_bar(data['bars'][3])
+    add_child(bar)

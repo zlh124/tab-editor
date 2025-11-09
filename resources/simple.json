@@ -1,23 +1,27 @@
 {
     "title": "那些花儿",
-    "author": "朴树",
-    "keySignature": "#C",
-    "timeSignature": "4/4",
-    "bpm": 58,
-    "OpenStringPitch": "E A G D B E",
+    "authors": [
+        "作词：朴树",
+        "作曲：朴树"
+    ],
+    "signatures": [
+        "1 = #C 4/4",
+        "bpm = 58",
+        "capo = 1"
+    ],
     "bars": [
         {
             "no": 1,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 1,
                     "name": "C",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 2,
                     "name": "Em7/B",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -26,45 +30,40 @@
                     "notes": [
                         {
                             "no": 1,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
-                            ],
-                            "value": 16
+                            "value": 16,
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
+                            ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
-                            "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "value": 8,
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
-                            ]
-                        },
-                        {
-                            "no": 4,
-                            "fret": -1,
-                            "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         }
                     ]
@@ -76,44 +75,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -125,44 +132,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -174,44 +189,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -220,16 +243,16 @@
         },
         {
             "no": 2,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 3,
                     "name": "Am",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 4,
                     "name": "F",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -240,44 +263,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "✕",
+                                "✕",
+                                "✕",
+                                "✕",
+                                "✕",
+                                "✕"
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -289,44 +320,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -338,44 +377,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 6,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕"
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         }
                     ]
@@ -387,44 +434,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 6,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕"
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -433,16 +488,16 @@
         },
         {
             "no": 3,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 1,
-                    "name": "c",
-                    "position": "1 1"
+                    "name": "C",
+                    "position": "1#1"
                 },
                 {
                     "id": 2,
-                    "name": "em7/b",
-                    "position": "3 1"
+                    "name": "Em7/b",
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -453,44 +508,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -502,44 +565,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -551,44 +622,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -600,44 +679,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -646,21 +733,21 @@
         },
         {
             "no": 4,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 5,
                     "name": "G",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 4,
                     "name": "F",
-                    "position": "2 1"
+                    "position": "2#1"
                 },
                 {
                     "id": 1,
                     "name": "C",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -671,44 +758,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 6,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕"
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 2,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                "",
+                                ""
                             ]
                         }
                     ]
@@ -720,44 +815,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 6,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕"
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         }
                     ]
@@ -769,44 +872,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 2,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                "",
+                                ""
                             ]
                         }
                     ]
@@ -818,44 +929,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 8,
-                            "strings": [
-                                {
-                                    "string": 2,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -864,16 +983,16 @@
         },
         {
             "no": 5,
-            "harmonies": [
+            "chords": [
                 {
                     "id": 1,
                     "name": "C",
-                    "position": "1 1"
+                    "position": "1#1"
                 },
                 {
                     "id": 2,
                     "name": "Em7/B",
-                    "position": "3 1"
+                    "position": "3#1"
                 }
             ],
             "beats": [
@@ -884,52 +1003,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": 2
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "2",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 2,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "✕",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -941,48 +1060,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 2,
-                                    "fret": 3
-                                }
+                            "frets": [
+                                "",
+                                "3",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 6,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕"
                             ]
                         }
                     ]
@@ -994,56 +1117,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 1,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "✕",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 2,
-                                    "fret": 3
-                                }
+                            "frets": [
+                                "",
+                                "3",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 2,
-                                    "fret": 3
-                                }
+                            "frets": [
+                                "",
+                                "3",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]
@@ -1055,48 +1174,52 @@
                             "no": 1,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 2,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 3,
-                                    "fret": -1
-                                },
-                                {
-                                    "string": 2,
-                                    "fret": 1
-                                }
+                            "frets": [
+                                "",
+                                "1",
+                                "✕",
+                                "",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 3,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 4,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                "",
+                                ""
                             ]
                         },
                         {
                             "no": 4,
                             "fret": -1,
                             "value": 16,
-                            "strings": [
-                                {
-                                    "string": 5,
-                                    "fret": -1
-                                }
+                            "frets": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "✕",
+                                ""
                             ]
                         }
                     ]

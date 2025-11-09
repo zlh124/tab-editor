@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cpkww11x8io8o" path="res://scenes/default_line.tscn" id="2_bwlfd"]
 
 [node name="Bar" type="CenterContainer"]
+size_flags_horizontal = 3
 script = ExtResource("1_5dekh")
 
 [node name="BarContainer" type="GridContainer" parent="."]

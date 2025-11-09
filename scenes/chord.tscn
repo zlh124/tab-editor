@@ -19,8 +19,9 @@ font_color = Color(0, 0, 0, 1)
 custom_minimum_size = Vector2(200, 280)
 layout_mode = 3
 anchors_preset = 0
-offset_right = 120.0
-offset_bottom = 180.0
+offset_right = 200.0
+offset_bottom = 280.0
+size_flags_horizontal = 2
 size_flags_vertical = 0
 script = ExtResource("1_rjigm")
 

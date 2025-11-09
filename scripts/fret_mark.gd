@@ -2,10 +2,16 @@ class_name FretMark
 
 extends Label
 
+#################################
+#  default a line in the middle #
+#  numbers and X for frets      #
+#################################
 
-func set_fret_value(value: String) -> void:
-    value = value.strip_escapes()
-    text = value
 
-func set_line_visible(value: bool) -> void:
-    get_node("LineBetweenFrets").visible = value
+var mark_value: String:
+    set(value):
+        mark_value = value.strip_escapes().left(4)
+        text = value
+
+func toggle_line_visible(_visible: bool) -> void:
+    get_node("LineBetweenFrets").visible = _visible

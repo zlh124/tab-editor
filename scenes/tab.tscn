@@ -4,38 +4,55 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_k3wli"]
 line_spacing = 0.0
-font_size = 180
+font_size = 240
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_ivfkk"]
 line_spacing = 5.0
-font_size = 40
+font_size = 80
 font_color = Color(0, 0, 0, 1)
 
-[node name="Tab" type="VBoxContainer"]
-custom_minimum_size = Vector2(2481, 3507)
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="Tab" type="Control"]
+custom_minimum_size = Vector2(3721.5, 5260.5)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 3721.5
+offset_bottom = 5260.5
 script = ExtResource("1_ivfkk")
 
-[node name="Title" type="Label" parent="."]
-custom_minimum_size = Vector2(0, 400)
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(2481, 3507)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Tab" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(3721.5, 5260.5)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Title" type="Label" parent="Tab"]
+custom_minimum_size = Vector2(0, 800)
 layout_mode = 2
 text = "Title"
 label_settings = SubResource("LabelSettings_k3wli")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Messages" type="HBoxContainer" parent="."]
-custom_minimum_size = Vector2(0, 100)
+[node name="Messages" type="HBoxContainer" parent="Tab"]
+custom_minimum_size = Vector2(0, 400)
 layout_mode = 2
 alignment = 1
 
-[node name="Control" type="Control" parent="Messages"]
-custom_minimum_size = Vector2(50, 0)
+[node name="Control" type="Control" parent="Tab/Messages"]
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 
-[node name="Signatures" type="Label" parent="Messages"]
+[node name="Signatures" type="Label" parent="Tab/Messages"]
 custom_minimum_size = Vector2(300, 0)
 layout_mode = 2
 size_flags_horizontal = 2
@@ -45,7 +62,7 @@ coap = 1 bpm = 58"
 label_settings = SubResource("LabelSettings_ivfkk")
 vertical_alignment = 1
 
-[node name="Authors" type="Label" parent="Messages"]
+[node name="Authors" type="Label" parent="Tab/Messages"]
 custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 size_flags_horizontal = 10
@@ -54,11 +71,11 @@ text = "朴树"
 label_settings = SubResource("LabelSettings_ivfkk")
 vertical_alignment = 1
 
-[node name="Control2" type="Control" parent="Messages"]
-custom_minimum_size = Vector2(50, 0)
+[node name="Control2" type="Control" parent="Tab/Messages"]
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="Tab"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/margin_left = 100
@@ -66,6 +83,7 @@ theme_override_constants/margin_top = 100
 theme_override_constants/margin_right = 100
 theme_override_constants/margin_bottom = 200
 
-[node name="Bars" type="HFlowContainer" parent="MarginContainer"]
+[node name="Bars" type="HFlowContainer" parent="Tab/MarginContainer"]
 layout_mode = 2
+theme_override_constants/h_separation = 0
 alignment = 1
