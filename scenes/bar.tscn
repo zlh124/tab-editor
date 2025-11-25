@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://chi0lu1ui6x2a"]
+
+[ext_resource type="Script" uid="uid://dfqcylc7ioinj" path="res://scripts/bar.gd" id="1_5dekh"]
+[ext_resource type="PackedScene" uid="uid://cpkww11x8io8o" path="res://scenes/default_line.tscn" id="2_bwlfd"]
+
+[node name="Bar" type="CenterContainer"]
+size_flags_horizontal = 3
+script = ExtResource("1_5dekh")
+
+[node name="BarContainer" type="GridContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 0
+
+[node name="Frame" type="Node2D" parent="."]
+
+[node name="LeftBorder" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 32, 0, 176)
+
+[node name="Line1" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 32, 0, 32)
+
+[node name="Line2" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 96, 0, 96)
+
+[node name="Line3" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 160, 0, 160)
+
+[node name="Line4" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 224, 0, 224)
+
+[node name="Line5" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 288, 0, 288)
+
+[node name="Line6" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 352, 0, 352)
+
+[node name="RightBorder" parent="Frame" instance=ExtResource("2_bwlfd")]
+points = PackedVector2Array(0, 32, 0, 176)

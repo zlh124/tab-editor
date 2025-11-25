@@ -1,0 +1,78 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4kybk01vltv7"]
+
+[ext_resource type="Script" uid="uid://dwts7w77j8wng" path="res://scripts/note.gd" id="1_1bnk6"]
+[ext_resource type="PackedScene" uid="uid://bwtuacjy5f3i3" path="res://scenes/fret_mark.tscn" id="2_1bnk6"]
+[ext_resource type="PackedScene" uid="uid://cpkww11x8io8o" path="res://scenes/default_line.tscn" id="3_43c4j"]
+
+[node name="Note" type="VBoxContainer" node_paths=PackedStringArray("fret_marks")]
+clip_contents = true
+offset_right = 32.0
+offset_bottom = 292.0
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+script = ExtResource("1_1bnk6")
+fret_marks = [NodePath("FretMarkString1"), NodePath("FretMarkString2"), NodePath("FretMarkString3"), NodePath("FretMarkString4"), NodePath("FretMarkString5"), NodePath("FretMarkString6")]
+
+[node name="FretMarkString1" parent="." instance=ExtResource("2_1bnk6")]
+layout_mode = 2
+
+[node name="FretMarkString2" parent="." instance=ExtResource("2_1bnk6")]
+layout_mode = 2
+
+[node name="FretMarkString3" parent="." instance=ExtResource("2_1bnk6")]
+layout_mode = 2
+
+[node name="FretMarkString4" parent="." instance=ExtResource("2_1bnk6")]
+layout_mode = 2
+
+[node name="FretMarkString5" parent="." instance=ExtResource("2_1bnk6")]
+layout_mode = 2
+
+[node name="FretMarkString6" parent="." instance=ExtResource("2_1bnk6")]
+layout_mode = 2
+
+[node name="AspectRatioContainer" type="Control" parent="."]
+custom_minimum_size = Vector2(32, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="NoteStem" parent="AspectRatioContainer" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(16, 0)
+points = PackedVector2Array(0, 0, 0, 100)
+
+[node name="8TimeValueMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(0, -95)
+points = PackedVector2Array(-1000, 192, 0, 192)
+width = 6.0
+
+[node name="8TimeValueMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(0, -95)
+points = PackedVector2Array(0, 192, 1000, 192)
+width = 6.0
+
+[node name="16TimeValueMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(0, -95)
+points = PackedVector2Array(-1000, 160, 0, 160)
+width = 6.0
+
+[node name="16TimeValueMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(0, -95)
+points = PackedVector2Array(0, 160, 1000, 160)
+width = 6.0
+
+[node name="32TimeValueMarkLeft" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(0, -95)
+points = PackedVector2Array(-1000, 128, 0, 128)
+width = 6.0
+
+[node name="32TimeValueMarkRight" parent="AspectRatioContainer/NoteStem" instance=ExtResource("3_43c4j")]
+visible = false
+position = Vector2(0, -95)
+points = PackedVector2Array(0, 128, 1000, 128)
+width = 6.0
